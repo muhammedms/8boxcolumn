@@ -1,0 +1,121 @@
+
+nav li {
+    display: inline-block;
+    padding: 1rem
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav {
+    background: green;
+    text-align: center;
+    width: 97%;
+    margin-right:4rem;
+    margin-left:rem;
+}
+
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    display:table;
+}
+
+.clearfix::after{
+clear: both;
+}
+
+
+.row{
+
+ /* outline: 1px solid red;*/
+}     
+
+.column{
+    float:left;
+  width: calc ((100% - 1.7em *2) /3);
+    margin-right: 1.7em;  
+    
+    background: whitesmoke;
+}
+
+
+
+.is-one-third {
+    
+    width: calc ((100%-1.7em *2) /3);
+    margin-right: 1.7em;
+    background: whitesmoke;
+}
+
+.is-two-three {
+    
+    width: calc ((100%-1.7em *2) /3);
+    margin-right: 1.7em;
+    background: whitesmoke;
+
+}
+
+.is-three-third {
+
+ 
+    width: calc ((100%-1.7em *2) /3);
+    margin-right: 1.7em;
+    background: whitesmoke
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+}
+
+.three {
+    width: 375px;
+    height: 200px;
+}
+
+.first {
+   width: 871px;
+   height: 200px;
+   padding-bottom: 1rem;
+   padding-bottom:1px;
+   
+    
+}
+
+.intro {
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+}
+
+footer {
+ width: 100%;
+ background: green;
+ text-align: center;
+ margin-bottom: 5em;
+
+ height:2rem;
+ 
+}
+
+
+
+
+body {
+    font-size: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+}
